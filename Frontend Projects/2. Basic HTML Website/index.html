@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pegah Hedayati" />
+    <meta name="description" content="this is a Basic HTML Website" />
+    <title>Basic HTML Website</title>
+    <style>
+      body {
+        margin: 0 25%;
+      }
+
+      h2 {
+        color: blue;
+      }
+
+      h3 {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <hr />
+    <header>
+      <h1>Frontend Developer</h1>
+      <h2>Pegah Hedayati</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <br />
+    <hr />
+
+    <main>
+      <article id="projects">
+        <h2>Projects</h2>
+        <section>
+          <h3>Project 1</h3>
+          <img
+            src="img/1.jpg"
+            alt="image_project_1"
+            title="image of project 1"
+            width="200"
+            height="100"
+            loading="lazy"
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </section>
+        <section>
+          <h3>Project 2</h3>
+          <img
+            src="img/2.jpg"
+            alt="image_project_2"
+            title="image of project 2"
+            width="200"
+            height="100"
+            loading="lazy"
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </section>
+      </article>
+
+      <br />
+      <hr />
+
+      <article id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="get">
+          <p>
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="pegah"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="pegah@gmail.com"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              required
+            />
+          </p>
+          <p>
+            <label for="message">Message: </label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              cols="33"
+              placeholder="your message is ..."
+              required
+            ></textarea>
+          </p>
+          <input type="submit" value="Send" name="submit" id="submit" />
+        </form>
+      </article>
+    </main>
+
+    <br />
+    <hr />
+
+    <footer>
+      <p><strong>&copy; all rights reserved 2026</strong></p>
+    </footer>
+
+    <hr />
+  </body>
+</html>
