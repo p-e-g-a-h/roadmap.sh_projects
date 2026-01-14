@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pegah Hedayati" />
+    <meta
+      name="description"
+      content="this page contains Restricted Textarea."
+    />
+    <title>Restricted Textarea</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header><h1>Restricted Textarea</h1></header>
+    <main>
+      <div id="box">
+        <textarea
+          name="message"
+          cols="43"
+          rows="8"
+          placeholder="your message is ..."
+          maxlength="225"
+        >
+        </textarea>
+        <input value="0/225" readonly />
+      </div>
+    </main>
+  </body>
+</html>
