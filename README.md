@@ -14,3 +14,4 @@ https://roadmap.sh/projects?g=
 - [Accordion](https://p-e-g-a-h.github.io/roadmap.sh_projects/Frontend%20Projects/Accordion/)
 - [GitHub Random Repository](https://p-e-g-a-h.github.io/roadmap.sh_projects/Frontend%20Projects/GitHub%20Random%20Repository/)
 - [Custom Dropdown](https://p-e-g-a-h.github.io/roadmap.sh_projects/Frontend%20Projects/Custom%20Dropdown/)
+- [Task Tracker](https://p-e-g-a-h.github.io/roadmap.sh_projects/Frontend%20Projects/Task%20Tracker/)
