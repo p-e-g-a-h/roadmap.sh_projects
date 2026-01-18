@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://p-e-g-a-h.github.io/roadmap.sh_projects/Frontend%20Projects/Quiz%20App/",
+  base: "/roadmap.sh_projects/Frontend%20Projects/Quiz%20App/dist/",
   plugins: [react(), tailwindcss()],
 });
