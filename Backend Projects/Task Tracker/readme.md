@@ -45,24 +45,24 @@ You can use the task-cli command followed by an action and any necessary argumen
 
 **Managing Tasks**
 
-| Action         | Command                                |
-| -------------- | -------------------------------------- |
-| Add a new task | task-cli add "Buy groceries"           |
-| Update a task  | task-cli update <id> "New description" |
-| Delete a task  | task-cli delete <id>                   |
+| Action         | Command                                  |
+| -------------- | ---------------------------------------- |
+| Add a new task | `task-cli add "Buy groceries"`           |
+| Update a task  | `task-cli update <id> "New description"` |
+| Delete a task  | `task-cli delete <id>`                   |
 
 **Managing Status**
 
-| Action           | Command                        |
-| ---------------- | ------------------------------ |
-| Mark In-Progress | task-cli mark-in-progress <id> |
-| Mark Done        | task-cli mark-done <id>        |
+| Action           | Command                          |
+| ---------------- | -------------------------------- |
+| Mark In-Progress | `task-cli mark-in-progress <id>` |
+| Mark Done        | `task-cli mark-done <id>`        |
 
 **Viewing Tasks**
 
-| Action                | Command                   |
-| --------------------- | ------------------------- |
-| List all tasks        | task-cli list             |
-| Filter by Done        | task-cli list done        |
-| Filter by Todo        | task-cli list todo        |
-| Filter by In-Progress | task-cli list in-progress |
+| Action                | Command                     |
+| --------------------- | --------------------------- |
+| List all tasks        | `task-cli list`             |
+| Filter by Done        | `task-cli list done`        |
+| Filter by Todo        | `task-cli list todo`        |
+| Filter by In-Progress | `task-cli list in-progress` |
