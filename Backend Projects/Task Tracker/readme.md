@@ -17,7 +17,7 @@ A lightweight Command Line Interface (CLI) application to manage your daily task
 1. **Clone the repository:**
 
 ```bash
-gh repo clone p-e-g-a-h/roadmap.sh_projects
+git clone p-e-g-a-h/roadmap.sh_projects
 ```
 
 2. **Navigate to the project folder:**
