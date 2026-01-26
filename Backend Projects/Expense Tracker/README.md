@@ -46,7 +46,7 @@ Use the expense-tracker command followed by the desired action and flags.
 
 **Financial Summaries**
 
-| Action          | Command                                            |
-| --------------- | -------------------------------------------------- |
-| Total Summary   | `expense-tracker summary`                          |
-| Monthly Summary | `expense-tracker summary --month 8 (e.g., August)` |
+| Action          | Command                             |
+| --------------- | ----------------------------------- |
+| Total Summary   | `expense-tracker summary`           |
+| Monthly Summary | `expense-tracker summary --month 8` |
