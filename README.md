@@ -20,3 +20,4 @@
 - [Task Tracker](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Task%20Tracker): CLI tool for task management.
 - [GitHub User Activity](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/GitHub%20User%20Activity): CLI tool to fetch and summarize GitHub user events.
 - [Expense Tracker](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Expense%20Tracker): CLI tool to log daily expenses and generate monthly financial summaries.
+- [Number Guessing Game](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Number%20Guessing%20Game): Interactive CLI game with multiple difficulty levels and attempt tracking.
