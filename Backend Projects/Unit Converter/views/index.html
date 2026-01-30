@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header><h1>Unit Converter</h1></header>
+    <nav>
+      <h2 id="length-h2">Length</h2>
+      <h2 id="weight-h2">Weight</h2>
+    </nav>
+
+    <main>
+      <article>
+        <section id="length">
+          <form onsubmit="sendData(event)">
+            <label for="x">number </label>
+            <input type="text" id="x" />
+
+            <label for="from">From</label>
+            <select id="from">
+              <option value="millimeter">millimeter</option>
+              <option value="centimeter">centimeter</option>
+              <option value="meter">meter</option>
+              <option value="kilometer">kilometer</option>
+              <option value="inch">inch</option>
+              <option value="foot">foot</option>
+              <option value="yard">yard</option>
+              <option value="mile">mile</option>
+            </select>
+
+            <label for="to">To</label>
+            <select id="to">
+              <option value="millimeter">millimeter</option>
+              <option value="centimeter">centimeter</option>
+              <option value="meter">meter</option>
+              <option value="kilometer">kilometer</option>
+              <option value="inch">inch</option>
+              <option value="foot">foot</option>
+              <option value="yard">yard</option>
+              <option value="mile">mile</option>
+            </select>
+            <input type="submit" value="Convert" />
+          </form>
+        </section>
+
+        <section id="weight">
+          <form onsubmit="sendData(event)">
+            <label for="x">number </label>
+            <input type="text" id="x" />
+
+            <label for="from">From</label>
+            <select id="from">
+              <option value="milligram">milligram</option>
+              <option value="gram">gram</option>
+              <option value="kilogram">kilogram</option>
+              <option value="ounce">ounce</option>
+              <option value="pound">pound</option>
+            </select>
+
+            <label for="to">To</label>
+            <select id="to">
+              <option value="milligram">milligram</option>
+              <option value="gram">gram</option>
+              <option value="kilogram">kilogram</option>
+              <option value="ounce">ounce</option>
+              <option value="pound">pound</option>
+            </select>
+            <input type="submit" value="Convert" />
+          </form>
+        </section>
+      </article>
+      <article id="result">
+        <h2>Result</h2>
+        <p>nothing for now</p>
+      </article>
+    </main>
+    <script>
+      let currentSection = "length";
+      const nav = document.querySelector("nav");
+      nav.addEventListener("click", (e) => {
+        if (e.target.tagName === "H2") {
+          e.target.style.textDecoration = "underline";
+          document.querySelector(`#${currentSection}-h2`).style.textDecoration =
+            "none";
+          const sectionId = e.target.textContent.toLowerCase();
+          const section = document.querySelector(`#${sectionId}`);
+          section.style.display = "block";
+          document.querySelector(`#${currentSection}`).style.display = "none";
+          currentSection = sectionId;
+        }
+      });
+    </script>
+
+    <script>
+      const sendData = async (e) => {
+        const form = e.target;
+        const x = form.querySelector("#x").value;
+        const from = form.querySelector("#from").value;
+        const to = form.querySelector("#to").value;
+        e.preventDefault();
+        if (x && !isNaN(x) && from !== to) {
+          const response = await fetch("/convert", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              x: Number(x),
+              from: from,
+              to: to,
+            }),
+          });
+          const result = await response.json();
+          const message = `${x} ${from} = ${result.number} ${to}`;
+          document.querySelector("#result p").textContent = message;
+        }
+      };
+    </script>
+  </body>
+</html>
