@@ -24,7 +24,9 @@ cd "roadmap.sh_projects/Backend Projects/Personal Blog"
 npm install
 ```
 
-4. **Configure Environment Variables:** Create a .env file in the root directory:
+4. **Setup Storage:** Create an articles folder in the root directory.
+
+5. **Configure Environment Variables:** Create a .env file in the root directory:
 
 ```env
 PORT=3000
@@ -32,7 +34,7 @@ ADMIN_USERNAME=admin
 ADMIN_PASSWORD=your_secure_password
 ```
 
-5. **Start the server:**
+6. **Start the server:**
 
 ```bash
 npm start
