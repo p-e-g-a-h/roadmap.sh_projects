@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Article</title>
+  </head>
+  <body class="w-1/2 m-auto mt-20 border border-zinc-800 p-5">
+    <header>
+      <h1 class="text-6xl"><%= article.title %></h1>
+      <h2 class="text-3xl mt-10"><%= article.date %></h2>
+    </header>
+    <main class="mt-20">
+      <p class="text-xl"><%= article.content %></p>
+    </main>
+  </body>
+</html>
