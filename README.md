@@ -23,3 +23,4 @@
 - [Number Guessing Game](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Number%20Guessing%20Game): Interactive CLI game with multiple difficulty levels and attempt tracking.
 - [Unit Converter](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Unit%20Converter): Full-stack web tool for length and weight conversions using native Node.js.
 - [Personal Blog](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Personal%20Blog): Full-stack web engine with protected admin routes and file-based JSON storage.
+- [Weather API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Weather%20API): High-performance proxy with Redis caching and IP-based rate limiting for weather data.
