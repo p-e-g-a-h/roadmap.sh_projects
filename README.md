@@ -24,3 +24,4 @@
 - [Unit Converter](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Unit%20Converter): Full-stack web tool for length and weight conversions using native Node.js.
 - [Personal Blog](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Personal%20Blog): Full-stack web engine with protected admin routes and file-based JSON storage.
 - [Weather API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Weather%20API): High-performance proxy with Redis caching and IP-based rate limiting for weather data.
+- [Blogging Platform API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Blogging%20Platform%20API): A RESTful service for content management featuring MongoDB persistence, dynamic CRUD operations, and URL-based category filtering.
