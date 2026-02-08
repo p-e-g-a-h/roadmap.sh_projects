@@ -25,3 +25,4 @@
 - [Personal Blog](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Personal%20Blog): Full-stack web engine with protected admin routes and file-based JSON storage.
 - [Weather API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Weather%20API): High-performance proxy with Redis caching and IP-based rate limiting for weather data.
 - [Blogging Platform API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Blogging%20Platform%20API): A RESTful service for content management featuring MongoDB persistence, dynamic CRUD operations, and URL-based category filtering.
+- [Todo List API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Todo%20List%20API): Secure task management with JWT auth, Bcrypt, and MongoDB validation.
