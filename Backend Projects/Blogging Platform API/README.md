@@ -6,7 +6,7 @@ A straightforward REST API for managing blog posts. Built with Node.js and Mongo
 
 ## Live Demo
 
-https://blogging-platform-api-j4j2.onrender.com/
+**https://blogging-platform-api-j4j2.onrender.com/**
 
 ## Installation
 

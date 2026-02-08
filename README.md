@@ -24,7 +24,8 @@
 - [Unit Converter](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Unit%20Converter): Full-stack web tool for length and weight conversions using native Node.js.
 - [Personal Blog](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Personal%20Blog): Full-stack web engine with protected admin routes and file-based JSON storage.
 - [Weather API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Weather%20API): High-performance proxy with Redis caching and IP-based rate limiting for weather data.
+  - **Live Demo:** https://weather-api-9tdg.onrender.com/weather/api/tehran
 - [Blogging Platform API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Blogging%20Platform%20API): A RESTful service for content management featuring MongoDB persistence, dynamic CRUD operations, and URL-based category filtering.
-  - **Live API:** https://blogging-platform-api-j4j2.onrender.com/
+  - **Live Demo:** https://blogging-platform-api-j4j2.onrender.com/
 - [Todo List API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Todo%20List%20API): Secure task management with JWT auth, Bcrypt, and MongoDB validation.
-  - **Live API:** https://todo-list-api-l23y.onrender.com/
+  - **Live Demo:** https://todo-list-api-l23y.onrender.com/
