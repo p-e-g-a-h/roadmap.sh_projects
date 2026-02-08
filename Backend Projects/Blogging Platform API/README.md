@@ -4,6 +4,10 @@ Project Challenge: [roadmap.sh - Blogging Platform API](https://roadmap.sh/proje
 
 A straightforward REST API for managing blog posts. Built with Node.js and MongoDB, it handles full CRUD operations and lets you filter posts by category. Uses UUIDs to keep every post unique.
 
+## Live Demo
+
+https://blogging-platform-api-j4j2.onrender.com/
+
 ## Installation
 
 1. **Clone the repository:**
