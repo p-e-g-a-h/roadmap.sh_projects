@@ -29,3 +29,5 @@
   - **Live Demo:** https://blogging-platform-api-j4j2.onrender.com/
 - [Todo List API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Todo%20List%20API): Secure task management with JWT auth, Bcrypt, and MongoDB validation.
   - **Live Demo:** https://todo-list-api-l23y.onrender.com/
+- [Expense Tracker API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Expense%20Tracker%20API): High-performance financial tracker featuring MySQL persistence, JWT authentication, and time-based filtering.
+  - **Live Demo:**

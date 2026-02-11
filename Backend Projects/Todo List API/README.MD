@@ -70,13 +70,13 @@ npm start
 
 ### Todo Routes (Protected - Requires `authorization: Bearer <token>`)
 
-| Method   | Route          | Description                          | Status Codes       |
-| -------- | -------------- | ------------------------------------ | ------------------ |
-| `GET`    | `/todos`       | Get all todos for the logged-in user | 201, 500           |
-| `GET`    | `/todos/:id`   | Get a specific todo by ID            | 200, 404, 500      |
-| `POST`   | `/todos/login` | Create a new todo                    | 201, 400, 500      |
-| `PUT`    | `/todos/:id`   | Update a todo                        | 200, 404, 400, 500 |
-| `DELETE` | `/todos/:id`   | Remove a todo                        | 204, 404, 400, 500 |
+| Method   | Route        | Description                          | Status Codes       |
+| -------- | ------------ | ------------------------------------ | ------------------ |
+| `GET`    | `/todos`     | Get all todos for the logged-in user | 201, 500           |
+| `GET`    | `/todos/:id` | Get a specific todo by ID            | 200, 404, 500      |
+| `POST`   | `/todos`     | Create a new todo                    | 201, 400, 500      |
+| `PUT`    | `/todos/:id` | Update a todo                        | 200, 404, 400, 500 |
+| `DELETE` | `/todos/:id` | Remove a todo                        | 204, 404, 400, 500 |
 
 #### Sample Todo Object
 
