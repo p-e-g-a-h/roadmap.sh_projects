@@ -1,0 +1,16 @@
+{
+  "name": "github-trending-cli",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "trending-repos": "./index.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
