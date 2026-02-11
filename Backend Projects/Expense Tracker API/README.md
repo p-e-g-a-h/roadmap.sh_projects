@@ -6,6 +6,8 @@ A high-performance RESTful API for tracking personal expenses by category. Built
 
 ## Live Demo
 
+https://expense-tracker-api-39cg.onrender.com/
+
 ## Features
 
 - **Secure Authentication:** JWT-based auth with bcryptjs password hashing.
