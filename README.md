@@ -32,3 +32,4 @@
 - [Expense Tracker API](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/Expense%20Tracker%20API): High-performance financial tracker featuring MySQL persistence, JWT authentication, and time-based filtering.
   - **Live Demo:** https://expense-tracker-api-39cg.onrender.com/
 - [GitHub Trending CLI](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/GitHub%20Trending%20CLI): CLI tool that fetches and displays trending repositories using the GitHub Search API with custom duration and limit filters.
+- [TMDB CLI Tool](https://github.com/p-e-g-a-h/roadmap.sh_projects/tree/main/Backend%20Projects/TMDB%20CLI%20Tool): A command-line application that interacts with The Movie Database (TMDB) API to retrieve and display movies by categories like Now Playing, Popular, Top Rated, and Upcoming.
